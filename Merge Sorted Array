@@ -1,0 +1,9 @@
+Initially:
+1 pointer at list 1 and other at list 2, take an other list and append one my one which ever is greater.
+Later append the elements of the leftover list one after the other to the new list.
+Copy back the new list to the 1st list and return 
+
+Optimal:
+1 pointer at end of legit numbers in list 1, other pointer at end of list 2 and another pointer at last of list 1 (i.e end of zeroes representing empty spaces)
+compare list 1 pointer and list 2 pointer and make 3rd pointer as th hisghest number of those two pointers 
+fill the other if there are any left in 2nd list 
