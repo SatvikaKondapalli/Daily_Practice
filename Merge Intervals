@@ -1,0 +1,7 @@
+Initially:
+Thought of comparing each one with all the other lists
+
+Optimal:
+i. Sort the list 
+ii. After sorting compare the 1st element of second list and 2nd element of first list if the are overlapping , merge my taking the maximum of 2nd elements in both lists.
+iii. If condition is not satisfying that means that they are not overlapping because already the list is sorted. Store the merged list in a new list and continue the process.
