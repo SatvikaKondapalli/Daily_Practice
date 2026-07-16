@@ -1,0 +1,6 @@
+Initially:
+Used bruteforce by creating a new matrix and replacing each element with matrix[n-j-1][i] and then copying it back to the original matrix.
+
+Optimal:
+i. Transpose the matrix (i.e, the diagonal elements remain same but the upper triangle elements are shifted down and vice versa)
+ii. Reverse each row in the matrix.
